@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from telegram.ext import ApplicationBuilder, CommandHandler
 from handlers import start, rashifol_command, broadcast, help_command
 from config import BOT_TOKEN
